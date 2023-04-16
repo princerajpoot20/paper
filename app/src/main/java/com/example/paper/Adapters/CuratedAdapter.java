@@ -46,7 +46,7 @@ public class CuratedAdapter extends RecyclerView.Adapter<CuratedViewHolder>{
             }
         });
     }
-
+// To get Item counts
     @Override
     public int getItemCount() {
         return list.size();
@@ -63,3 +63,5 @@ class CuratedViewHolder extends RecyclerView.ViewHolder{
         imageView_list = itemView.findViewById(R.id.imageView_list);
     }
 }
+
+
