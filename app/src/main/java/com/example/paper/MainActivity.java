@@ -126,6 +126,7 @@ public class MainActivity extends AppCompatActivity implements OnRecyclerClickLi
         });
         return super.onCreateOptionsMenu(menu);
     }
+    // Api function call
     private final SearchResponseListener searchResponseListener = new SearchResponseListener() {
         @Override
         public void onFetch(SearchAPIResponse response, String message) {
