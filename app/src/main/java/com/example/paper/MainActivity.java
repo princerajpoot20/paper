@@ -139,5 +139,10 @@ public class MainActivity extends AppCompatActivity implements OnRecyclerClickLi
         }
 
 
+        @Override
+        public void onError(String message) {
+            dialog.dismiss();
+            Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT).show();
+        }
     };
 }
