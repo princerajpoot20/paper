@@ -50,6 +50,10 @@ public class RequestManager {
             }
         });
     }
+    //to search curated wallpapers
+
+
+    
 
     public  void searchCuratedWallpapers(SearchResponseListener listener, String page,String query){
         CallWallpaperListSearch callWallpaperListSearch = retrofit.create(CallWallpaperListSearch.class);
