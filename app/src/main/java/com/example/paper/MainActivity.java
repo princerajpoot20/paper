@@ -127,22 +127,6 @@ public class MainActivity extends AppCompatActivity implements OnRecyclerClickLi
         return super.onCreateOptionsMenu(menu);
     }
 
-    private final SearchResponseListener searchResponseListener = new SearchResponseListener() {
-        @Override
-        public void onFetch(SearchAPIResponse response, String message) {
-            dialog.dismiss();
-            if(response.getPhotos().isEmpty())
-            {
-                Toast.makeText(MainActivity.this, "No Image Found!!!", Toast.LENGTH_SHORT).show();
-                return;
-            }
-            showData(response.getPhotos());
-        }
 
-        @Override
-        public void onError(String message) {
-            dialog.dismiss();
-            Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT).show();
-        }
     };
 }
