@@ -17,6 +17,8 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
+//CuratedAdapter for image as list view
+
 public class CuratedAdapter extends RecyclerView.Adapter<CuratedViewHolder>{
 
     Context context;
