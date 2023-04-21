@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity implements OnRecyclerClickLi
         startActivity(new Intent(MainActivity.this,WallpaperActivity.class)
                 .putExtra("Photo",photo));
     }
-
+// this is the function for option menu
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu, menu);
