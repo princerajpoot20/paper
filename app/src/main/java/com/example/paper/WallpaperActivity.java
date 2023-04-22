@@ -66,14 +66,12 @@ public class WallpaperActivity extends AppCompatActivity {
                 WallpaperManager wallpaperManager = WallpaperManager.getInstance(WallpaperActivity.this);
                 Bitmap bitmap = ((BitmapDrawable) imageView_wallpaper.getDrawable()).getBitmap();
 
-                try {
-                    wallpaperManager.setBitmap(bitmap);
-                    Toast.makeText(WallpaperActivity.this, "Wallpaper Set!", Toast.LENGTH_SHORT).show();
-                }
-                catch (Exception e){
-                    e.printStackTrace();
-                    Toast.makeText(WallpaperActivity.this, "Better Luck Next Time", Toast.LENGTH_SHORT).show();
-                }
+
+
+
+
+
+                
             }
         });
 

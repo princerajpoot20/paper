@@ -112,6 +112,13 @@ public class MainActivity extends AppCompatActivity implements OnRecyclerClickLi
         SearchView searchView = (SearchView) menuItem.getActionView();
         searchView.setQueryHint("Imagine to power...");
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+
+
+
+
+
+            
 
             @Override
             public boolean onQueryTextChange(String newText) {
