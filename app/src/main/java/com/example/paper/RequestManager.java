@@ -68,7 +68,11 @@ public class RequestManager {
                 }
                 listener.onFetch(response.body(), response.message());
             }
+            @Override
+            public void onFailure(Call<SearchAPIResponse> call, Throwable t) {
+                listener.onError(t.getMessage());
 
+            }
             
         });
     }
