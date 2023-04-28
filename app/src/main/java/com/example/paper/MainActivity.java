@@ -115,10 +115,13 @@ public class MainActivity extends AppCompatActivity implements OnRecyclerClickLi
             @Override
 
 
+            // On click Text Subbmit 
+            public boolean onQueryTextSubmit(String query) {
+                manager.searchCuratedWallpapers(searchResponseListener,"1",query);
+                dialog.show();
+                return true;
+            }
 
-
-
-            
 
             @Override
             public boolean onQueryTextChange(String newText) {
