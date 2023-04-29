@@ -38,16 +38,13 @@ public class CuratedAdapter extends RecyclerView.Adapter<CuratedViewHolder>{
 
     }
 
-    @Override
-    public void onBindViewHolder(@NonNull CuratedViewHolder holder, int position) {
-        Picasso.get().load(list.get(position).getSrc().getPortrait()).placeholder(R.drawable.placeholder).into(holder.imageView_list);
-        holder.home_list_container.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                listener.onClick(list.get(holder.getAdapterPosition()));
-            }
-        });
-    }
+
+
+
+
+    
+
+
 // To get Item counts
     @Override
     public int getItemCount() {
