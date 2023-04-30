@@ -68,10 +68,18 @@ public class WallpaperActivity extends AppCompatActivity {
 
 
 
+                try {
+                    wallpaperManager.setBitmap(bitmap);
+                    Toast.makeText(WallpaperActivity.this, "Wallpaper Set!", Toast.LENGTH_SHORT).show();
+                }
+                catch (Exception e){
+                    e.printStackTrace();
+                    Toast.makeText(WallpaperActivity.this, "Better Luck Next Time", Toast.LENGTH_SHORT).show();
+                }
 
 
 
-                
+
             }
         });
 
