@@ -1,0 +1,10 @@
+# MAD-Project
+ScreenGallery is a user-friendly wallpaper app designed to help smartphone users personalize their device's appearance with a diverse selection of high-quality, visually appealing wallpapers. The app will cater to various tastes and preferences by offering wallpapers organized into categories such as nature, abstract, technology, and seasonal themes. Key features will include easy navigation, search functionality, filters, user-generated content, and customization options. The app aims to provide a seamless user experience and engage users with regular content updates and interactive community elements.
+
+Key Features:
+
+1. Extensive Wallpaper Collection: ScreenGallery offers a vast collection of wallpapers carefully curated to cater to various tastes and preferences. The app includes a wide range of categories, such as nature, abstract, animals, architecture, landscapes, and more. Users can browse through the collection to find wallpapers that resonate with their style.
+
+2. High-Quality Images: The wallpapers in ScreenGallery are of high quality, ensuring crisp and vibrant visuals that enhance the device's display. The app ensures that the wallpapers are optimized for different screen resolutions and sizes, delivering an optimal viewing experience on various devices.
+
+3. User-Friendly Interface: The app features a clean and intuitive user interface, making it easy for users to navigate through the wallpaper collection. The interface allows for smooth scrolling and ensuring that users can quickly find wallpapers that match their preferences.
