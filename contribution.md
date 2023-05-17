@@ -13,3 +13,5 @@ Issues : 1. Before working on a new feature or bug fix, check the existing issue
 Code and Commit Guidelines : 1. Follow the existing code style and conventions used in the project. 2. Write clean, readable, and well-documented code. 3. Make commits that are focused and atomic, addressing a single change or fix. Write clear and descriptive commit messages that explain the purpose of your changes.
 
 Pull Requests : 1. Once you have made your changes and are ready to submit them, push your branch to your forked repository 2. Submit a pull request from your branch to the original repository's main branch. 3. Provide a detailed description of your changes in the pull request, explaining the problem you solved or the feature you added. Reference the related issue number(s) if applicable.
+
+//Contributors : [Manan Jain](https://github.com/HindzSight)
